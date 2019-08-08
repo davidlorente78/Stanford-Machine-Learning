@@ -30,7 +30,9 @@ X = [ones(m, 1) X];
 %       for each row.
 %       
 
-
+predictions = sigmoid(X*all_theta');
+[p_max, position_max]=max(predictions, [], 2);
+p = position_max;
 
 
 
