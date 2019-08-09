@@ -31,7 +31,7 @@ z3 = a2*Theta2';
 
 a3 = sigmoid(z3);
 
-[p_max, p] = max(a3')
+[p_max, p] = max(a3');
 
 
 
