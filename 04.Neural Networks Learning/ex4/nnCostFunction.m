@@ -63,22 +63,33 @@ Theta2_grad = zeros(size(Theta2));
 %
 
 
+%Bias Row of Ones
+X = [ones(m,1) X];
 
 
+%Forward Propagation 
+z1 = sigmoid(Theta1 * X');
+a2 = [ones(1, size(z1, 2)); z1];
+a3 = sigmoid(Theta2 * a2);
+h = a3;
 
+%Transform y (Vector) into Y (Matrix) 
+Y = zeros(num_labels, m);
 
+for i=1:num_labels,
+    Y(i,:) = (y==i);
+endfor
 
+%Calculate Cost Function
+J = 1/m*(sum( sum( -1*Y.*log(h) - (1 - Y).*log(1-h) ) ));
 
+%Exclude bias terms (See previous exercices)
+Theta1_Reg = Theta1(:,2:size(Theta1,2));
+Theta2_Reg = Theta2(:,2:size(Theta2,2));
 
+Reg = (lambda/(2*m)) * (sum(sum( Theta1_Reg.^2 )) + sum( sum( Theta2_Reg.^2 ) ));
 
-
-
-
-
-
-
-
-
+J = Reg + J
 
 % -------------------------------------------------------------
 
