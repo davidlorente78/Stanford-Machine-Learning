@@ -1,3 +1,5 @@
+
+
 function [J grad] = nnCostFunction(nn_params, ...
                                    input_layer_size, ...
                                    hidden_layer_size, ...
@@ -61,36 +63,54 @@ Theta2_grad = zeros(size(Theta2));
 %               the regularization separately and then add them to Theta1_grad
 %               and Theta2_grad from Part 2.
 %
+%disp(m)
+%size(X)
+%size(Theta1)
+%size(Theta2)
+%size(y)
+%X = [ones(m,1) X];
+%a2 = [ones(m,1) sigmoid(X * Theta1' )];
+%h = sigmoid(a2 * Theta2');
+%labels = [1;2;3;4;5;6;7;8;9;0];
+%for i = 1:m,
+%    y_label = (labels == y(i));
+%    J = J - log(h(i,:)) * y_label - log(1-h(i,:)) * (1-y_label);
+%end;
+X = [ones(m, 1) X];
+ylabel = zeros(num_labels, m);
+for i=1:m
+    ylabel(y(i), i) = 1;
+end
 
+z2 = X*Theta1';
+z2 = [ones(m, 1) z2];
+a2 = sigmoid(X*Theta1');
+a2 = [ones(m, 1) a2];
+a3 = sigmoid(a2*Theta2');
 
-%Bias Row of Ones
-X = [ones(m,1) X];
+for i=1:m
+    J = J - log(a3(i, :))*ylabel(:, i) - (log(1 - a3(i, :)) * (1 - ylabel(:, i)));
+end
+J = J/m;
 
+J = J + lambda/2/m * (sum(sum(Theta1(:, 2:end).^2)) + sum(sum(Theta2(:, 2:end).^2)));
 
-%Forward Propagation 
-z1 = sigmoid(Theta1 * X');
-a2 = [ones(1, size(z1, 2)); z1];
-a3 = sigmoid(Theta2 * a2);
-h = a3;
+Delta1 = zeros(size(Theta1));
+Delta2 = zeros(size(Theta2));
+for t = 1:m
+    delta3 = a3(t, :)' - ylabel(:, t);
+    delta2 = Theta2'*delta3 .* sigmoidGradient(z2(t, :)');
 
-%Transform y (Vector) into Y (Matrix) 
-Y = zeros(num_labels, m);
+    Delta1 = Delta1 + delta2(2:end) * X(t, :);
+    Delta2 = Delta2 + delta3 * a2(t, :);
+end
 
-for i=1:num_labels,
-    Y(i,:) = (y==i);
-endfor
-
-%Calculate Cost Function
-J = 1/m*(sum( sum( -1*Y.*log(h) - (1 - Y).*log(1-h) ) ));
-
-%Exclude bias terms (See previous exercices)
-Theta1_Reg = Theta1(:,2:size(Theta1,2));
-Theta2_Reg = Theta2(:,2:size(Theta2,2));
-
-Reg = (lambda/(2*m)) * (sum(sum( Theta1_Reg.^2 )) + sum( sum( Theta2_Reg.^2 ) ));
-
-J = Reg + J
-
+Theta1_grad = Delta1 / m;
+Theta1_grad(:, 2:end) = Theta1_grad(:, 2:end) + lambda/m*Theta1(:, 2:end);
+Theta2_grad = Delta2 / m;
+Theta2_grad(:, 2:end) = Theta2_grad(:, 2:end) + lambda/m*Theta2(:, 2:end);
+%regTerms = sum(sum(Theta1(:,2:end).^2)) + sum(sum(Theta2(:,2:end).^2));
+%J = (1/m) * (J + lambda/2 * regTerms); 
 % -------------------------------------------------------------
 
 % =========================================================================
