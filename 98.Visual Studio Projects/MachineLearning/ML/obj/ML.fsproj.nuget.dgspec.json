@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dlorente\\Desktop\\Machine Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\ML.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dlorente\\Desktop\\Machine Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\ML.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dlorente\\Desktop\\Machine Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\ML.fsproj",
+        "projectName": "ML",
+        "projectPath": "C:\\Users\\dlorente\\Desktop\\Machine Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\ML.fsproj",
+        "packagesPath": "C:\\Users\\dlorente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dlorente\\Desktop\\Machine Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dlorente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            },
+            "MathNet.Numerics.FSharp": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

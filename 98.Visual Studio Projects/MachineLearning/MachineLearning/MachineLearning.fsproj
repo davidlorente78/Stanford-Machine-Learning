@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="LinearRegresion\Dataset\ex1data1.txt" />
+    <Compile Include="LinearRegresion\LinearRegresionOneVariable.fs" />
+    <Compile Include="Matrices.fs" />
+  </ItemGroup>
+
+  <ItemGroup />
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="4.8.1" />
+    <PackageReference Include="MathNet.Numerics.FSharp" Version="4.8.1" />
+  </ItemGroup>
+
+</Project>
