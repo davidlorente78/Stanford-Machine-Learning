@@ -38,9 +38,25 @@ let main argv =
 
               
    let m = points2 |> Seq.length;
+
+   let x_max = 
+       data 
+       |> Seq.map(fun (a) ->    Convert.ToDouble(a.Split(',').[0].Replace('.',',')))
+       |> Seq.max
+
+   let x_min = 
+    data 
+    |> Seq.map(fun (a) ->    Convert.ToDouble(a.Split(',').[0].Replace('.',',')))
+    |> Seq.min
+    
+
+   let y_max=
+       data 
+         |> Seq.map(fun (a) ->    Convert.ToDouble(a.Split(',').[1].Replace('.',',')))
+         |> Seq.max
      
     //(float*float) list
-   Chart.Point points2      
+   Chart.Point (points2,"DataSet")
     |> Chart.WithYAxis(Title = "Profit", Max = (25.0), Min = (-5.0))
     |> Chart.WithXAxis(Title = "Population", Max = (25.0), Min = (-5.0))
     |> Chart.Show
@@ -72,6 +88,9 @@ let main argv =
        data 
       |> Seq.map(fun (a) ->    Convert.ToDouble(a.Split(',').[1].Replace('.',',')))
       |> Seq.toArray
+
+   
+        
          
 
    let data_x = DenseMatrix.OfColumnArrays x_lines
@@ -81,23 +100,41 @@ let main argv =
    let ones = DenseVector.Create(data_x.RowCount,1.0)
 
    let X = data_x.InsertColumn(0,ones)
-
-   let XT = X.Transpose()
+    
 
    //-3.6303  1.1664
+
+   let XT = X.Transpose()
    
    let partial = (XT.Multiply(X))
    let inverse = partial.PseudoInverse()
 
-   let theta = (XT.Multiply(X)).PseudoInverse().Multiply(XT).Multiply(y)
- 
-   let theta2 = X.TransposeThisAndMultiply(X).Inverse() * X.TransposeThisAndMultiply(y)
-
-    //TODO Pending Plot Line with linear regresion 
-
+   let theta =  X.TransposeThisAndMultiply(X).PseudoInverse() * X.TransposeThisAndMultiply(y)
+       
     //https://numerics.mathdotnet.com/Matrix.html
 
+   let x_min_vector_list = [1.0; x_min]
+   let x_max_vector_list = [1.0; x_max]  
 
+   let x_min_vector = Matrix.Build.DenseOfRows([x_min_vector_list])
+   let x_max_vector = Matrix.Build.DenseOfRows([x_max_vector_list])
+          
+   let prediction_x_min = x_min_vector.Multiply(theta)
+   let prediction_x_max = x_max_vector.Multiply(theta)
+
+  
+
+   let regression_points = 
+    //[ (0,0) ; (25,25) ]
+    [ (x_min,prediction_x_min.[0]) ; (x_max,prediction_x_max.[0]) ]
+    |> List.toSeq
+    
+   //Chart.Line (regression_points,"LinearRegression")
+   
+   Chart.Combine(
+    [Chart.Point(points2,Name="DataSet")
+     Chart.Line(regression_points,Name="LinearRegression") ])
+     |>Chart.Show
 
    
    System.Console.ReadLine() |> ignore
