@@ -6,7 +6,8 @@
 
   <ItemGroup>
     <Compile Include="Matrices.fs" />
-    <Compile Include="LinearRegresion\LinearRegresionOneVariable.fs" />
+    <Compile Include="LinearRegresion\LoadFromFile.fs" />
+    <Compile Include="LinearRegresion\Dataset.fs" />
     <Content Include="LinearRegresion\Dataset\ex1data1.txt" />
   </ItemGroup>
 
