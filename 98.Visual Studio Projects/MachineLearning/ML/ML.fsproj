@@ -8,6 +8,7 @@
     <Compile Include="Matrices.fs" />
     <Compile Include="LinearRegresion\LoadFromFile.fs" />
     <Compile Include="LinearRegresion\Dataset.fs" />
+    <Compile Include="LinearRegresion\NormalEquation.fs" />
     <Content Include="LinearRegresion\Dataset\ex1data1.txt" />
   </ItemGroup>
 
