@@ -10,11 +10,7 @@
  
 //Access namespaces as required by the examples. System for the 'Random' type and use of String.Format, FSharp.Data for the HtmlProvider, FSharp.Charting for what is says on the tin
 //and System.Drawing for chart styling elements
-open System
-open FSharp.Data
-open FSharp.Charting
-open System.Drawing
- 
+open FSharp.Charting 
 
 //Define an array of resting heart rate values
 let restingHeartRateValues = [69; 74; 76; 71; 68; 65; 64; 79; 80; 75; 72; 65; 63; 62; 59; 65; 80; 61; 59] 

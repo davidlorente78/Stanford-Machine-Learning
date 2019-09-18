@@ -14,6 +14,10 @@ let main argv =
 
    let data = Load.fromFile @"C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\LinearRegresion\Dataset\ex1data1.txt";
    
+
+   let data2 = Load.fromFile2 @"C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\LinearRegresion\Dataset\ex1data1.txt";
+   
+
    data |> Seq.iter(fun x -> printfn  "%s" x)  
    System.Console.ReadLine() |> ignore
    
@@ -22,7 +26,7 @@ let main argv =
         |> Seq.map(fun (a) -> a.Split(',').[0] , a.Split(',').[1])
         |> Seq.map(fun (a,b) -> a.Replace('.',',') ,b.Replace('.',','))
         |> Seq.map(fun (a,b) -> Convert.ToDouble(a) ,Convert.ToDouble(b))
-  
+     
    Chart.Point (points,"DataSet")
     |> Chart.WithYAxis(Title = "Profit", Max = (25.0), Min = (-5.0))
     |> Chart.WithXAxis(Title = "Population", Max = (25.0), Min = (-5.0))
@@ -34,13 +38,11 @@ let main argv =
    Console.Write(X.ToString())
    System.Console.ReadLine() |> ignore
 
-
    Console.Write(y.ToString())
    System.Console.ReadLine() |> ignore
-
    
    //Initial theta
-   let theta_0 = Vector.Build.Dense(Dataset.n);
+   let theta_0 = Vector.Build.Dense(Dataset.n + 1);
 
    //Initial cost
    let cost_0 = 1.0 / ( 2.0 * Convert.ToDouble(Dataset.m) ) * (X.Multiply(theta_0)-y).Map(fun (x) -> x*x).Sum()
@@ -53,8 +55,7 @@ let main argv =
        System.Console.ReadLine() |> ignore
 
    enter_to_continue
-
-   
+    
 
    let theta_check = V.DenseOfEnumerable( [ -1.0 ;  2.0 ])
    
@@ -63,9 +64,10 @@ let main argv =
    printfn  "Estimated cost for Theta = [-1,2]  54.24 : %f" cost_check
    enter_to_continue
 
+
+   //Normal Equation
    let theta = X.TransposeThisAndMultiply(X).PseudoInverse() * X.TransposeThisAndMultiply(y)   
-     
-    
+   
     //Plotting Regression Line
    let x_min_vector_list = [1.0; Dataset.x_min]
    let x_max_vector_list = [1.0; Dataset.x_max]  
@@ -88,9 +90,6 @@ let main argv =
 
    
    System.Console.ReadLine() |> ignore
-
-
-
-  
+        
    0
 

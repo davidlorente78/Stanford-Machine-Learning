@@ -10,7 +10,13 @@ module Load =
     //let filePath = @"C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\LinearRegresion\Dataset\ex1data1.txt";
    
     let fromFile filepath = 
-        File.ReadLines(filepath)   
+        File.ReadLines(filepath)   //IEnumerable <string>
+
+    let fromFile2 filepath = 
+        File.ReadAllLines(filepath)
+        |> Array.map (fun (t : string) -> t.Split(',') |> Array.map (fun (t)-> float t)) //float [] []
+
+     
 
    
 
