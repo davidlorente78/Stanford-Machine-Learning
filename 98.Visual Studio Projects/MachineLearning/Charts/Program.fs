@@ -14,10 +14,6 @@ let main argv =
 
    let data = Load.fromFile @"C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\LinearRegresion\Dataset\ex1data1.txt";
    
-
-   let data2 = Load.fromFile2 @"C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\LinearRegresion\Dataset\ex1data1.txt";
-   
-
    data |> Seq.iter(fun x -> printfn  "%s" x)  
    System.Console.ReadLine() |> ignore
    
@@ -57,14 +53,12 @@ let main argv =
    enter_to_continue
     
 
-   let theta_check = V.DenseOfEnumerable( [ -1.0 ;  2.0 ])
-   
+   let theta_check = V.DenseOfEnumerable( [ -1.0 ;  2.0 ])   
    let cost_check = 1.0 / ( 2.0 * Convert.ToDouble(Dataset.m) ) * (X.Multiply(theta_check)-y).Map(fun (x) -> x*x).Sum()
   
    printfn  "Estimated cost for Theta = [-1,2]  54.24 : %f" cost_check
    enter_to_continue
-
-
+   
    //Normal Equation
    let theta = X.TransposeThisAndMultiply(X).PseudoInverse() * X.TransposeThisAndMultiply(y)   
    
@@ -87,8 +81,7 @@ let main argv =
     [Chart.Point(points,Name="DataSet",Title = "Training Data")
      Chart.Line(regression_points,Name="LinearRegression",Title = "Linear Regression") ])
      |>Chart.Show
-
-   
+        
    System.Console.ReadLine() |> ignore
         
    0

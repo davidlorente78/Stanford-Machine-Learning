@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Matrices.fs" />
     <Compile Include="LinearRegresion\LoadFromFile.fs" />
     <Compile Include="LinearRegresion\Dataset.fs" />
     <Compile Include="LinearRegresion\LinearRegression.fs" />
