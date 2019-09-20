@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LinearRegressionOneVariable", "Charts\LinearRegressionOneVariable.fsproj", "{3BADE8F2-C1B9-407B-9B9E-9162A042D85B}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "LinearRegressionOneVariableLibraries", "ML\LinearRegressionOneVariableLibraries.fsproj", "{CC7B3CC6-56A8-4281-A56D-94FDB282BD91}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LinearRegression", "LinearRegression\LinearRegression.fsproj", "{BD5D1D37-76AE-48C0-9B8F-EB7DCD240D8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BADE8F2-C1B9-407B-9B9E-9162A042D85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BADE8F2-C1B9-407B-9B9E-9162A042D85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BADE8F2-C1B9-407B-9B9E-9162A042D85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BADE8F2-C1B9-407B-9B9E-9162A042D85B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7B3CC6-56A8-4281-A56D-94FDB282BD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7B3CC6-56A8-4281-A56D-94FDB282BD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7B3CC6-56A8-4281-A56D-94FDB282BD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7B3CC6-56A8-4281-A56D-94FDB282BD91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5D1D37-76AE-48C0-9B8F-EB7DCD240D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5D1D37-76AE-48C0-9B8F-EB7DCD240D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5D1D37-76AE-48C0-9B8F-EB7DCD240D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5D1D37-76AE-48C0-9B8F-EB7DCD240D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60390328-ACD2-4DC0-9BCD-3AC03250CE30}
+	EndGlobalSection
+EndGlobal
