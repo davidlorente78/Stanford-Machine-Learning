@@ -5,8 +5,8 @@ open MathNet.Numerics.LinearAlgebra.Double
 
 module Dataset =   
 
-   let private data = MachineLearning.Load.fromFile @"C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\LinearRegresion\Dataset\ex1data1.txt";     
-   let private data2 = MachineLearning.Load.fromFile2 @"C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\LinearRegresion\Dataset\ex1data1.txt";     
+   let private data = MachineLearning.Load.fromFile @"C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\LinearRegresion\Dataset\ex1data1.txt";     
+   let private data2 = MachineLearning.Load.fromFile2 @"C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\LinearRegresion\Dataset\ex1data1.txt";     
       
    let points = 
           data

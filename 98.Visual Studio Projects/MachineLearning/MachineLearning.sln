@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LinearRegressionOneVariable", "Charts\LinearRegressionOneVariable.fsproj", "{3BADE8F2-C1B9-407B-9B9E-9162A042D85B}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MLCharts", "Charts\MLCharts.fsproj", "{3BADE8F2-C1B9-407B-9B9E-9162A042D85B}"
 EndProject
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "LinearRegressionOneVariableLibraries", "ML\LinearRegressionOneVariableLibraries.fsproj", "{CC7B3CC6-56A8-4281-A56D-94FDB282BD91}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "MachineLearning", "MachineLearning\MachineLearning.fsproj", "{4193B7AB-4CCF-4E6E-A37F-579AF12A5193}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LinearRegression", "LinearRegression\LinearRegression.fsproj", "{BD5D1D37-76AE-48C0-9B8F-EB7DCD240D8A}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ML", "ML\ML.fsproj", "{A95A8BE1-A057-492A-BA23-7D2931142CC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{3BADE8F2-C1B9-407B-9B9E-9162A042D85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BADE8F2-C1B9-407B-9B9E-9162A042D85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BADE8F2-C1B9-407B-9B9E-9162A042D85B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC7B3CC6-56A8-4281-A56D-94FDB282BD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC7B3CC6-56A8-4281-A56D-94FDB282BD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC7B3CC6-56A8-4281-A56D-94FDB282BD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC7B3CC6-56A8-4281-A56D-94FDB282BD91}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD5D1D37-76AE-48C0-9B8F-EB7DCD240D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD5D1D37-76AE-48C0-9B8F-EB7DCD240D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD5D1D37-76AE-48C0-9B8F-EB7DCD240D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD5D1D37-76AE-48C0-9B8F-EB7DCD240D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4193B7AB-4CCF-4E6E-A37F-579AF12A5193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4193B7AB-4CCF-4E6E-A37F-579AF12A5193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4193B7AB-4CCF-4E6E-A37F-579AF12A5193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4193B7AB-4CCF-4E6E-A37F-579AF12A5193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A95A8BE1-A057-492A-BA23-7D2931142CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95A8BE1-A057-492A-BA23-7D2931142CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95A8BE1-A057-492A-BA23-7D2931142CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95A8BE1-A057-492A-BA23-7D2931142CC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

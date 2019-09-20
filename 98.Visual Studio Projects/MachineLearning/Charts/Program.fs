@@ -12,7 +12,7 @@ let main argv =
    
    let V = Vector.Build
 
-   let data = Load.fromFile @"C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\LinearRegresion\Dataset\ex1data1.txt";
+   let data = Load.fromFile @"C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\LinearRegresion\Dataset\ex1data1.txt";
    
    data |> Seq.iter(fun x -> printfn  "%s" x)  
    System.Console.ReadLine() |> ignore

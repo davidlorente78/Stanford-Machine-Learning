@@ -8,12 +8,15 @@
     <Compile Include="LinearRegresion\LoadFromFile.fs" />
     <Compile Include="LinearRegresion\Dataset.fs" />
     <Compile Include="LinearRegresion\LinearRegression.fs" />
-    <Content Include="LinearRegresion\Dataset\ex1data1.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MathNet.Numerics" Version="4.8.1" />
     <PackageReference Include="MathNet.Numerics.FSharp" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="LinearRegresion\Dataset\" />
   </ItemGroup>
 
 </Project>

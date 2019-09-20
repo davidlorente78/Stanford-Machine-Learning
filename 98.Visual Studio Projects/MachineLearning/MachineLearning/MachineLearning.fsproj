@@ -7,7 +7,6 @@
   <ItemGroup>
     <Content Include="LinearRegresion\Dataset\ex1data1.txt" />
     <Compile Include="LinearRegresion\LinearRegresionOneVariable.fs" />
-    <Compile Include="Matrices.fs" />
   </ItemGroup>
 
   <ItemGroup />

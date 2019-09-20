@@ -2852,11 +2852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dlorente\\Desktop\\Machine Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\MachineLearning.fsproj",
+      "projectUniqueName": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\MachineLearning.fsproj",
       "projectName": "MachineLearning",
-      "projectPath": "C:\\Users\\dlorente\\Desktop\\Machine Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\MachineLearning.fsproj",
+      "projectPath": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\MachineLearning.fsproj",
       "packagesPath": "C:\\Users\\dlorente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dlorente\\Desktop\\Machine Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\obj\\",
+      "outputPath": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

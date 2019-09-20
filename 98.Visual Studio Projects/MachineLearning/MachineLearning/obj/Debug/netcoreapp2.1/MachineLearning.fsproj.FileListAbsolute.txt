@@ -5,3 +5,11 @@ C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLear
 C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\bin\Debug\netcoreapp2.1\MachineLearning.pdb
 C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\obj\Debug\netcoreapp2.1\MachineLearning.dll
 C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\obj\Debug\netcoreapp2.1\MachineLearning.pdb
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\bin\Debug\netcoreapp2.1\MachineLearning.deps.json
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\bin\Debug\netcoreapp2.1\MachineLearning.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\bin\Debug\netcoreapp2.1\MachineLearning.pdb
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\obj\Debug\netcoreapp2.1\MachineLearning.fsprojAssemblyReference.cache
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\obj\Debug\netcoreapp2.1\MachineLearning.AssemblyInfoInputs.cache
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\obj\Debug\netcoreapp2.1\MachineLearning.AssemblyInfo.fs
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\obj\Debug\netcoreapp2.1\MachineLearning.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\MachineLearning\obj\Debug\netcoreapp2.1\MachineLearning.pdb

@@ -32,3 +32,37 @@ C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLear
 C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\Charts\obj\Debug\MLCharts.pdb
 C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\FSharp.Data.TypeProviders.dll
 C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\FSharp.Data.TypeProviders.xml
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\MLCharts.exe.config
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\MLCharts.XML
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\MLCharts.exe
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\MLCharts.pdb
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\FSharp.Charting.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\FSharp.Core.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\FSharp.Data.TypeProviders.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\MathNet.Numerics.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\ML.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\System.ValueTuple.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\ML.pdb
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\FSharp.Charting.xml
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\FSharp.Core.xml
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\FSharp.Data.TypeProviders.xml
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\MathNet.Numerics.xml
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\cs\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\de\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\en\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\es\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\fr\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\it\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\ja\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\ko\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\pl\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\pt-BR\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\ru\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\tr\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\obj\Debug\MLCharts.fsprojAssemblyReference.cache
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\obj\Debug\MLCharts.exe.config
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\obj\Debug\MLCharts.fsproj.CopyComplete
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\obj\Debug\MLCharts.exe
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\obj\Debug\MLCharts.pdb

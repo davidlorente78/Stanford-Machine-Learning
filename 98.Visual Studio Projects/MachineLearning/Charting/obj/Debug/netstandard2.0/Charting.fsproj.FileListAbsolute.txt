@@ -1,6 +1,0 @@
-C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\Charting\bin\Debug\netstandard2.0\Charting.deps.json
-C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\Charting\bin\Debug\netstandard2.0\Charting.dll
-C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\Charting\obj\Debug\netstandard2.0\Charting.fsprojAssemblyReference.cache
-C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\Charting\obj\Debug\netstandard2.0\Charting.fsproj.CoreCompileInputs.cache
-C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\Charting\obj\Debug\netstandard2.0\Charting.AssemblyInfoInputs.cache
-C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLearning\Charting\obj\Debug\netstandard2.0\Charting.AssemblyInfo.fs

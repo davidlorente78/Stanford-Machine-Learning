@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dlorente\\Desktop\\Machine Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\ML.fsproj": {}
+    "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\ML.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\dlorente\\Desktop\\Machine Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\ML.fsproj": {
+    "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\ML.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dlorente\\Desktop\\Machine Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\ML.fsproj",
+        "projectUniqueName": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\ML.fsproj",
         "projectName": "ML",
-        "projectPath": "C:\\Users\\dlorente\\Desktop\\Machine Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\ML.fsproj",
+        "projectPath": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\ML.fsproj",
         "packagesPath": "C:\\Users\\dlorente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dlorente\\Desktop\\Machine Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\obj\\",
+        "outputPath": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\ML\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
