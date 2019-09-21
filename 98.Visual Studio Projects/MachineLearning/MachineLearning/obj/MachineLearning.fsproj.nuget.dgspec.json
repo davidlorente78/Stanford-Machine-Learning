@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\MachineLearning.fsproj": {}
+    "C:\\Users\\Sibon\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\MachineLearning.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\MachineLearning.fsproj": {
+    "C:\\Users\\Sibon\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\MachineLearning.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\MachineLearning.fsproj",
+        "projectUniqueName": "C:\\Users\\Sibon\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\MachineLearning.fsproj",
         "projectName": "MachineLearning",
-        "projectPath": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\MachineLearning.fsproj",
-        "packagesPath": "C:\\Users\\dlorente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\obj\\",
+        "projectPath": "C:\\Users\\Sibon\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\MachineLearning.fsproj",
+        "packagesPath": "C:\\Users\\Sibon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sibon\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\MachineLearning\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\dlorente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sibon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

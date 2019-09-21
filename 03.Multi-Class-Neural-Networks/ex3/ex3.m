@@ -34,7 +34,19 @@ num_labels = 10;          % 10 labels, from 1 to 10
 fprintf('Loading and Visualizing Data ...\n')
 
 load('ex3data1.mat'); % training data stored in arrays X, y
+who
+
+
+
+fprintf('Program paused. Press enter to continue.\n');
+pause;
 m = size(X, 1);
+
+Export = [y X];
+csvwrite("digits.csv",Export )
+
+csvwrite("digits_data.csv",X)
+csvwrite("digits_labels.csv",y)
 
 % Randomly select 100 data points to display
 rand_indices = randperm(m);
