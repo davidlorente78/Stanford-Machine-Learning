@@ -42,6 +42,8 @@ fprintf('Program paused. Press enter to continue.\n');
 pause;
 m = size(X, 1);
 
+
+%%Exported to F# exercices with csv format
 Export = [y X];
 csvwrite("digits.csv",Export )
 

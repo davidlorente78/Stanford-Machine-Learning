@@ -5,6 +5,9 @@ open System.IO
 
 type Observation = {Label : String ; Pixels : float []}
 
+type Distance = float[] * float [] -> float
+
+
 [<EntryPoint>]
 let main argv =
     let toObservation (csvData : string) = 
@@ -20,8 +23,7 @@ let main argv =
 
     let datasetPath = @"C:\Users\Sibon\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\DigitsRecognizer\Dataset\digits.csv"
        
-    let data = reader datasetPath
-          
+    let data = reader datasetPath          
 
     //There are 5000 training examples in ex3data1.mat, where each training
     //example is a 20 pixel by 20 pixel grayscale image of the digit. Each pixel is
@@ -36,38 +38,65 @@ let main argv =
     //Octave/MATLAB indexing, where there is no zero index, we have mapped
     //the digit zero to the value ten. Therefore, a “0” digit is labeled as “10”, while
     //the digits “1” to “9” are labeled as “1” to “9” in their natural order.
-
-
+    
     let m = data.Length
+
+    printfn "m = %i" m
 
     let number = data.[34].Label
 
     //Separate data in training data and validation data
 
-    let trainingdata = data
+    let trainingdata = data.[0..4900]
 
-    let validationdata = data
+    let validationdata = data.[4901..4998]
 
-
+   
 
     let manhattanDistance (pixels1 : float [], pixels2 : float []) = 
         Array.zip pixels1 pixels2
         |> Array.map (fun (x,y) -> abs (x-y))
         |> Array.sum
 
-    let train (trainingset : Observation []) =
+
+    let euclidianDistance (pixels1 : float [], pixels2 : float []) = 
+        Array.zip pixels1 pixels2
+        |> Array.map (fun (x,y) -> pown (x-y) 2)
+        |> Array.sum    
+
+    //let train (trainingset : Observation []) =
+    //    let classify (pixels : float []) = 
+    //        trainingset
+    //        |> Array.minBy(fun x-> manhattanDistance (x.Pixels, pixels))
+    //        |> fun x -> x.Label
+    //    classify
+
+    let train (trainingset : Observation []) (dist : Distance) =
         let classify (pixels : float []) = 
             trainingset
-            |> Array.minBy(fun x-> manhattanDistance (x.Pixels, pixels))
+            |> Array.minBy(fun x-> dist (x.Pixels, pixels))
             |> fun x -> x.Label
         classify
+        
+    let manhattanClassifier = train trainingdata manhattanDistance
 
-    let classifier = train trainingdata
+    let euclidianClassifier = train trainingdata euclidianDistance
 
+    let numbertest = euclidianClassifier data.[34].Pixels
 
-
+    printf "Calculating Accurancy with Manhattan distance\n"
     validationdata
-    |> Array.averageBy (fun x-> if classifier x.Pixels = x.Label then 1. else 0.)
-    |> printfn "Correct %.3f"
+    |> Array.averageBy (fun x-> if manhattanClassifier x.Pixels = x.Label then 100. else 0.)
+    |> printfn "manhattanClassifier Correct %.3f "
+
+    printf "Calculating Accurancy with Euclidian distance\n"
+    validationdata
+    |> Array.averageBy (fun x-> if euclidianClassifier x.Pixels = x.Label then 100. else 0.)
+    |> printfn "euclidianClassifier Correct %f "
+
+    printf "Calculating Accurancy using training data. Bad practice!"
+    trainingdata
+    |> Array.averageBy (fun x-> if euclidianClassifier x.Pixels = x.Label then 100. else 0.)
+    |> printfn "Using training data Correct %f "
     
     0 // return an integer exit code
