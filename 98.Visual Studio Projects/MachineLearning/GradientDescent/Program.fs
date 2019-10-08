@@ -260,6 +260,7 @@ let main argv =
         (if obs.Weekday = 4 then 1.0 else 0.0);
         (if obs.Weekday = 5 then 1.0 else 0.0);
         (if obs.Weekday = 6 then 1.0 else 0.0);
+        (if obs.Weekday = 7 then 1.0 else 0.0);
         ]
 
     let (theta_02,model_02) = model_features featurizer_02 training
