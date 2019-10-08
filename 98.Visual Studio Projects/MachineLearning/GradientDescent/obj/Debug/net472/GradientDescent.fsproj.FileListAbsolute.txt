@@ -25,3 +25,5 @@ C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\Ma
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\obj\Debug\net472\GradientDescent.fsproj.CopyComplete
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\obj\Debug\net472\GradientDescent.exe
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\obj\Debug\net472\GradientDescent.pdb
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\bin\Debug\net472\MathNet.Numerics.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\bin\Debug\net472\MathNet.Numerics.FSharp.dll

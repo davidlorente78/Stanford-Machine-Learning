@@ -90,6 +90,34 @@
         "runtime": {
           "lib/net40/FSharp.Data.TypeProviders.dll": {}
         }
+      },
+      "MathNet.Numerics/4.8.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net461/MathNet.Numerics.dll": {}
+        },
+        "runtime": {
+          "lib/net461/MathNet.Numerics.dll": {}
+        }
+      },
+      "MathNet.Numerics.FSharp/4.8.1": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.3.3",
+          "MathNet.Numerics": "4.8.1"
+        },
+        "compile": {
+          "lib/net45/MathNet.Numerics.FSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MathNet.Numerics.FSharp.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.7.2/win7-x86": {
@@ -180,6 +208,34 @@
         },
         "runtime": {
           "lib/net40/FSharp.Data.TypeProviders.dll": {}
+        }
+      },
+      "MathNet.Numerics/4.8.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net461/MathNet.Numerics.dll": {}
+        },
+        "runtime": {
+          "lib/net461/MathNet.Numerics.dll": {}
+        }
+      },
+      "MathNet.Numerics.FSharp/4.8.1": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.3.3",
+          "MathNet.Numerics": "4.8.1"
+        },
+        "compile": {
+          "lib/net45/MathNet.Numerics.FSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MathNet.Numerics.FSharp.dll": {}
         }
       }
     }
@@ -284,6 +340,42 @@
         "lib/net40/FSharp.Data.TypeProviders.dll",
         "lib/net40/FSharp.Data.TypeProviders.xml"
       ]
+    },
+    "MathNet.Numerics/4.8.1": {
+      "sha512": "HK97Btmlx8WLioRpWpyO3kCpvm3y9n4WzgFDQxaxUP9zbScOxB6JevGyGydcDtVDDPC4Gtv4u/j7pQjK6N+sUA==",
+      "type": "package",
+      "path": "mathnet.numerics/4.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/MathNet.Numerics.dll",
+        "lib/net40/MathNet.Numerics.xml",
+        "lib/net461/MathNet.Numerics.dll",
+        "lib/net461/MathNet.Numerics.xml",
+        "lib/netstandard1.3/MathNet.Numerics.dll",
+        "lib/netstandard1.3/MathNet.Numerics.xml",
+        "lib/netstandard2.0/MathNet.Numerics.dll",
+        "lib/netstandard2.0/MathNet.Numerics.xml",
+        "mathnet.numerics.4.8.1.nupkg.sha512",
+        "mathnet.numerics.nuspec"
+      ]
+    },
+    "MathNet.Numerics.FSharp/4.8.1": {
+      "sha512": "ZIWp9HzC1pez+yrXnH2gA06/JYjgMXFYM486h6Zyh2EcKOBexHDhDQtkiApJL1ulEgMw+dgz0OysJp0sLajZpQ==",
+      "type": "package",
+      "path": "mathnet.numerics.fsharp/4.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MathNet.Numerics.FSharp.dll",
+        "lib/net45/MathNet.Numerics.FSharp.xml",
+        "lib/netstandard1.6/MathNet.Numerics.FSharp.dll",
+        "lib/netstandard1.6/MathNet.Numerics.FSharp.xml",
+        "lib/netstandard2.0/MathNet.Numerics.FSharp.dll",
+        "lib/netstandard2.0/MathNet.Numerics.FSharp.xml",
+        "mathnet.numerics.fsharp.4.8.1.nupkg.sha512",
+        "mathnet.numerics.fsharp.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -291,7 +383,8 @@
       "FSharp.Charting >= 2.1.0",
       "FSharp.Core >= 4.7.0",
       "FSharp.Data >= 3.3.2",
-      "FSharp.Data.TypeProviders >= 5.0.0.6"
+      "FSharp.Data.TypeProviders >= 5.0.0.6",
+      "MathNet.Numerics.FSharp >= 4.8.1"
     ]
   },
   "packageFolders": {
@@ -345,6 +438,10 @@
           "FSharp.Data.TypeProviders": {
             "target": "Package",
             "version": "[5.0.0.6, )"
+          },
+          "MathNet.Numerics.FSharp": {
+            "target": "Package",
+            "version": "[4.8.1, )"
           }
         }
       }
