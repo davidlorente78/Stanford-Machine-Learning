@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\GradientDescent\\GradientDescent.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\GradientDescent\\GradientDescent.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\GradientDescent\\GradientDescent.fsproj",
+        "projectName": "GradientDescent",
+        "projectPath": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\GradientDescent\\GradientDescent.fsproj",
+        "packagesPath": "C:\\Users\\dlorente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\GradientDescent\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dlorente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "FSharp.Charting": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "FSharp.Data": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "FSharp.Data.TypeProviders": {
+              "target": "Package",
+              "version": "[5.0.0.6, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

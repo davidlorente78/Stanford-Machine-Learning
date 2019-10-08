@@ -1,0 +1,10 @@
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\bin\Debug\netcoreapp2.1\GradientDescent.deps.json
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\bin\Debug\netcoreapp2.1\GradientDescent.runtimeconfig.json
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\bin\Debug\netcoreapp2.1\GradientDescent.runtimeconfig.dev.json
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\bin\Debug\netcoreapp2.1\GradientDescent.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\bin\Debug\netcoreapp2.1\GradientDescent.pdb
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\obj\Debug\netcoreapp2.1\GradientDescent.AssemblyInfoInputs.cache
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\obj\Debug\netcoreapp2.1\GradientDescent.AssemblyInfo.fs
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\obj\Debug\netcoreapp2.1\GradientDescent.dll
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\obj\Debug\netcoreapp2.1\GradientDescent.pdb
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\GradientDescent\obj\Debug\netcoreapp2.1\GradientDescent.fsprojAssemblyReference.cache

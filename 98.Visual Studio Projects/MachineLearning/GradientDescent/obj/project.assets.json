@@ -1,0 +1,358 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "FSharp.Charting/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.0.0.1"
+        },
+        "compile": {
+          "lib/net45/FSharp.Charting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Charting.dll": {}
+        }
+      },
+      "FSharp.Core/4.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/net45/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "FSharp.Data/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.0.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/FSharp.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Data.dll": {}
+        }
+      },
+      "FSharp.Data.TypeProviders/5.0.0.6": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "3.1.2.5"
+        },
+        "compile": {
+          "lib/net40/FSharp.Data.TypeProviders.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FSharp.Data.TypeProviders.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win7-x86": {
+      "FSharp.Charting/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.0.0.1"
+        },
+        "compile": {
+          "lib/net45/FSharp.Charting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Charting.dll": {}
+        }
+      },
+      "FSharp.Core/4.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/net45/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net45/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net45/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net45/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net45/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net45/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net45/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net45/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net45/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net45/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net45/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net45/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "FSharp.Data/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.0.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/FSharp.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Data.dll": {}
+        }
+      },
+      "FSharp.Data.TypeProviders/5.0.0.6": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "3.1.2.5"
+        },
+        "compile": {
+          "lib/net40/FSharp.Data.TypeProviders.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FSharp.Data.TypeProviders.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FSharp.Charting/2.1.0": {
+      "sha512": "f+j2BKHGtjACQRhF78jY2mwg0Y2sR9/UdkuOWZxF1oGokd4bv/zHsvXwCOKuLkSKgp7KDZJVYiJVjk+jLpk1GA==",
+      "type": "package",
+      "path": "fsharp.charting/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FSharp.Charting.fsx",
+        "fsharp.charting.2.1.0.nupkg.sha512",
+        "fsharp.charting.nuspec",
+        "lib/net45/FSharp.Charting.dll",
+        "lib/net45/FSharp.Charting.xml"
+      ]
+    },
+    "FSharp.Core/4.7.0": {
+      "sha512": "6Bf2qzSCaJoP6tTfO+a5muUS7QbyJANqSut73zQvwQ9It5P0ITz9VKseeia2ofco30c55EQ0jA2wf2+A2gpGnw==",
+      "type": "package",
+      "path": "fsharp.core/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fsharp.core.4.7.0.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/net45/FSharp.Core.dll",
+        "lib/net45/FSharp.Core.optdata",
+        "lib/net45/FSharp.Core.sigdata",
+        "lib/net45/FSharp.Core.xml",
+        "lib/net45/cs/FSharp.Core.resources.dll",
+        "lib/net45/de/FSharp.Core.resources.dll",
+        "lib/net45/es/FSharp.Core.resources.dll",
+        "lib/net45/fr/FSharp.Core.resources.dll",
+        "lib/net45/it/FSharp.Core.resources.dll",
+        "lib/net45/ja/FSharp.Core.resources.dll",
+        "lib/net45/ko/FSharp.Core.resources.dll",
+        "lib/net45/pl/FSharp.Core.resources.dll",
+        "lib/net45/pt-BR/FSharp.Core.resources.dll",
+        "lib/net45/ru/FSharp.Core.resources.dll",
+        "lib/net45/tr/FSharp.Core.resources.dll",
+        "lib/net45/zh-Hans/FSharp.Core.resources.dll",
+        "lib/net45/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.optdata",
+        "lib/netstandard2.0/FSharp.Core.sigdata",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "FSharp.Data/3.3.2": {
+      "sha512": "+jagOGlhAXR78o0V+bR5SxvvScxt6nAVGuoWcr1x9BxQsQvQks8wY860N9Kxt1qviGx87eW7OEIgVg+UHX88kQ==",
+      "type": "package",
+      "path": "fsharp.data/3.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fsharp.data.3.3.2.nupkg.sha512",
+        "fsharp.data.nuspec",
+        "lib/net45/FSharp.Data.DesignTime.dll",
+        "lib/net45/FSharp.Data.DesignTime.pdb",
+        "lib/net45/FSharp.Data.dll",
+        "lib/net45/FSharp.Data.pdb",
+        "lib/net45/FSharp.Data.xml",
+        "lib/netstandard2.0/FSharp.Data.DesignTime.dll",
+        "lib/netstandard2.0/FSharp.Data.DesignTime.pdb",
+        "lib/netstandard2.0/FSharp.Data.dll",
+        "lib/netstandard2.0/FSharp.Data.pdb",
+        "lib/netstandard2.0/FSharp.Data.xml",
+        "linqpad-samples/GitHub.linq",
+        "linqpad-samples/Jira.linq",
+        "linqpad-samples/TypeInference.linq",
+        "typeproviders/fsharp41/net45/FSharp.Data.DesignTime.dll",
+        "typeproviders/fsharp41/net45/FSharp.Data.DesignTime.pdb",
+        "typeproviders/fsharp41/netstandard2.0/FSharp.Data.DesignTime.dll",
+        "typeproviders/fsharp41/netstandard2.0/FSharp.Data.DesignTime.pdb"
+      ]
+    },
+    "FSharp.Data.TypeProviders/5.0.0.6": {
+      "sha512": "/tayW91IUfbq65WIfNPYILW8fS8SeGYUwquLajgNPol9sljIV1a1Yy8zay1AS5ghqOmBHC++XsA4hMB791B/uA==",
+      "type": "package",
+      "path": "fsharp.data.typeproviders/5.0.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fsharp.data.typeproviders.5.0.0.6.nupkg.sha512",
+        "fsharp.data.typeproviders.nuspec",
+        "lib/net40/FSharp.Data.TypeProviders.dll",
+        "lib/net40/FSharp.Data.TypeProviders.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "FSharp.Charting >= 2.1.0",
+      "FSharp.Core >= 4.7.0",
+      "FSharp.Data >= 3.3.2",
+      "FSharp.Data.TypeProviders >= 5.0.0.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dlorente\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\GradientDescent\\GradientDescent.fsproj",
+      "projectName": "GradientDescent",
+      "projectPath": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\GradientDescent\\GradientDescent.fsproj",
+      "packagesPath": "C:\\Users\\dlorente\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\GradientDescent\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\dlorente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "FSharp.Charting": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "FSharp.Core": {
+            "target": "Package",
+            "version": "[4.7.0, )"
+          },
+          "FSharp.Data": {
+            "target": "Package",
+            "version": "[3.3.2, )"
+          },
+          "FSharp.Data.TypeProviders": {
+            "target": "Package",
+            "version": "[5.0.0.6, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

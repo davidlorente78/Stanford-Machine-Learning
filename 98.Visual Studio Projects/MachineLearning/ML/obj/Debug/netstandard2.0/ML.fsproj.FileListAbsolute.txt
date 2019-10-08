@@ -9,7 +9,6 @@ C:\Users\dlorente\Desktop\Machine Learning\98.Visual Studio Projects\MachineLear
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\bin\Debug\netstandard2.0\ML.deps.json
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\bin\Debug\netstandard2.0\ML.dll
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\bin\Debug\netstandard2.0\ML.pdb
-C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\obj\Debug\netstandard2.0\ML.fsprojAssemblyReference.cache
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\obj\Debug\netstandard2.0\ML.AssemblyInfoInputs.cache
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\obj\Debug\netstandard2.0\ML.AssemblyInfo.fs
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\obj\Debug\netstandard2.0\ML.dll
@@ -22,3 +21,4 @@ C:\Users\Sibon\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\Machi
 C:\Users\Sibon\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\obj\Debug\netstandard2.0\ML.AssemblyInfo.fs
 C:\Users\Sibon\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\obj\Debug\netstandard2.0\ML.dll
 C:\Users\Sibon\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\obj\Debug\netstandard2.0\ML.pdb
+C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\ML\obj\Debug\netstandard2.0\ML.fsprojAssemblyReference.cache

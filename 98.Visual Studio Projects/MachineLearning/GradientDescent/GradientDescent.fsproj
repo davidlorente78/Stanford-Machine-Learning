@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Dataset\day.csv" />
+    <None Include="Dataset\hour.csv" />
+    <None Include="Dataset\Readme.txt" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Charting" Version="2.1.0" />
+    <PackageReference Include="FSharp.Data" Version="3.3.2" />
+    <PackageReference Include="FSharp.Data.TypeProviders" Version="5.0.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>

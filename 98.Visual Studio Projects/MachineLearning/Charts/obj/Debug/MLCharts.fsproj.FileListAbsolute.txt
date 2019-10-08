@@ -49,7 +49,6 @@ C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\Ma
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\MathNet.Numerics.xml
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\cs\FSharp.Core.resources.dll
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\de\FSharp.Core.resources.dll
-C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\en\FSharp.Core.resources.dll
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\es\FSharp.Core.resources.dll
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\fr\FSharp.Core.resources.dll
 C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\Charts\bin\Debug\it\FSharp.Core.resources.dll

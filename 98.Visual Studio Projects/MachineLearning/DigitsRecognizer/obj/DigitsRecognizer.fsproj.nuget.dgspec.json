@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sibon\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\DigitsRecognizer\\DigitsRecognizer.fsproj": {}
+    "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\DigitsRecognizer\\DigitsRecognizer.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\Sibon\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\DigitsRecognizer\\DigitsRecognizer.fsproj": {
+    "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\DigitsRecognizer\\DigitsRecognizer.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sibon\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\DigitsRecognizer\\DigitsRecognizer.fsproj",
+        "projectUniqueName": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\DigitsRecognizer\\DigitsRecognizer.fsproj",
         "projectName": "DigitsRecognizer",
-        "projectPath": "C:\\Users\\Sibon\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\DigitsRecognizer\\DigitsRecognizer.fsproj",
-        "packagesPath": "C:\\Users\\Sibon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sibon\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\DigitsRecognizer\\obj\\",
+        "projectPath": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\DigitsRecognizer\\DigitsRecognizer.fsproj",
+        "packagesPath": "C:\\Users\\dlorente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dlorente\\Desktop\\Stanford-Machine-Learning\\98.Visual Studio Projects\\MachineLearning\\DigitsRecognizer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sibon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dlorente\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,7 +38,7 @@
           "dependencies": {
             "FSharp.Core": {
               "target": "Package",
-              "version": "[4.6.2, )"
+              "version": "[4.7.0, )"
             },
             "Microsoft.NETCore.App": {
               "target": "Package",

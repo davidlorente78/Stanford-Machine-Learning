@@ -7,7 +7,6 @@ type Observation = {Label : String ; Pixels : float []}
 
 type Distance = float[] * float [] -> float
 
-
 [<EntryPoint>]
 let main argv =
     let toObservation (csvData : string) = 
@@ -21,7 +20,8 @@ let main argv =
         data.[1..]
         |>Array.map toObservation
 
-    let datasetPath = @"C:\Users\Sibon\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\DigitsRecognizer\Dataset\digits.csv"
+    let datasetPath = @"C:\Users\dlorente\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\DigitsRecognizer\Dataset\digits.csv"
+    //let datasetPath = @"C:\Users\Sibon\Desktop\Stanford-Machine-Learning\98.Visual Studio Projects\MachineLearning\DigitsRecognizer\Dataset\digits.csv"
        
     let data = reader datasetPath          
 
